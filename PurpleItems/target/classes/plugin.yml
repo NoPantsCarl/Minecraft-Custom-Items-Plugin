@@ -1,0 +1,16 @@
+name: PurpleItems
+version: '1.0.0'
+main: de.nopantscarl.purpleitems.main.PurpleItems
+api-version: 1.17
+authors: [ nopantscarl ]
+description: A custom items plugins
+
+depend: [Vault]
+
+commands:
+  purpleitems:
+    description: Give items with this command
+  refill:
+    description: Refill charges of specific item
+  autorefill:
+    description: Toggle autorefill
